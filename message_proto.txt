@@ -1,0 +1,9 @@
+'{"speed":' + [SpeedMph] 
++ ',"rpm":' + [Rpms]
++ ',"fuel":' + [Fuel] 
++ ',"oiltemp":' + [OilTemperature] 
++ ',"oilpres":' + [OilPressure]
++ '}\n'
+
+
+{"speed":9.07,"rpm":902.692138671875,"fuel":67.3903065919876,"oiltemp":81.22,"oilpres":7.39}

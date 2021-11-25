@@ -1,0 +1,123 @@
+{
+  "AutomaticReconnect": true,
+  "SerialPortName": "COM11",
+  "StartupDelayMs": 10,
+  "IsConnecting": false,
+  "IsEnabled": true,
+  "LogIncomingData": true,
+  "IsConnected": true,
+  "BaudRate": 115200,
+  "UpdateMessages": [
+    {
+      "Message": {
+        "Expression": "'{\"speed\":' + [SpeedMph] \r\n+ ',\"rpm\":' + [Rpms]\r\n+ ',\"fuel\":' + [Fuel] \r\n+ ',\"oiltemp\":' + [OilTemperature] \r\n+ ',\"oilpres\":' + [OilPressure]\r\n+ '}\\n'"
+      },
+      "IsEnabled": true,
+      "MaximumFrequency": 30
+    }
+  ],
+  "OnConnectMessage": {
+    "Expression": ""
+  },
+  "OnDisconnectMessage": {
+    "Expression": ""
+  },
+  "DtrEnable": true,
+  "RtsEnable": true,
+  "EditorExpanded": true,
+  "Name": "Custom Serial device",
+  "Description": "Serial device",
+  "LastErrorDate": "2021-11-25T08:16:08.0257518-05:00",
+  "LastErrorMessage": null,
+  "IsFreezed": false,
+  "SettingsBuilder": {
+    "Settings": [
+      {
+        "Minimum": 0,
+        "Maximum": 200,
+        "Label": "Speed",
+        "IsVisible": true,
+        "IsVisibleFormula": {
+          "Expression": ""
+        },
+        "IsEnabled": true,
+        "IsEnabledFormula": {
+          "Expression": ""
+        },
+        "PropertyName": "[SpeedMph]",
+        "CurrentValue": 22,
+        "Name": null,
+        "TypeName": "SliderEntry"
+      },
+      {
+        "Minimum": 0,
+        "Maximum": 7000,
+        "Label": "rpm",
+        "IsVisible": true,
+        "IsVisibleFormula": {
+          "Expression": ""
+        },
+        "IsEnabled": true,
+        "IsEnabledFormula": {
+          "Expression": ""
+        },
+        "PropertyName": "[Rpms]",
+        "CurrentValue": 516,
+        "Name": null,
+        "TypeName": "SliderEntry"
+      },
+      {
+        "Minimum": 0,
+        "Maximum": 100,
+        "Label": "fuel",
+        "IsVisible": true,
+        "IsVisibleFormula": {
+          "Expression": ""
+        },
+        "IsEnabled": true,
+        "IsEnabledFormula": {
+          "Expression": ""
+        },
+        "PropertyName": "[Fuel]",
+        "CurrentValue": 10,
+        "Name": null,
+        "TypeName": "SliderEntry"
+      },
+      {
+        "Minimum": 0,
+        "Maximum": 260,
+        "Label": "oiltemp",
+        "IsVisible": true,
+        "IsVisibleFormula": {
+          "Expression": ""
+        },
+        "IsEnabled": true,
+        "IsEnabledFormula": {
+          "Expression": ""
+        },
+        "PropertyName": "[OilTemperature]",
+        "CurrentValue": 34,
+        "Name": null,
+        "TypeName": "SliderEntry"
+      },
+      {
+        "Minimum": 0,
+        "Maximum": 80,
+        "Label": "oilpres",
+        "IsVisible": true,
+        "IsVisibleFormula": {
+          "Expression": ""
+        },
+        "IsEnabled": true,
+        "IsEnabledFormula": {
+          "Expression": ""
+        },
+        "PropertyName": "[OilPressure]",
+        "CurrentValue": 16,
+        "Name": null,
+        "TypeName": "SliderEntry"
+      }
+    ],
+    "IsEditMode": false
+  }
+}
