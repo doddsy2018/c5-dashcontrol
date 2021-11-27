@@ -1,4 +1,4 @@
-# c5-dashcontrol
+# Corvette c5 Dash Control
 
 ## About
 
