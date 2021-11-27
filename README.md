@@ -22,3 +22,7 @@ Using SimHub custome serial feature to direct system output values from game
 ```json
 {"speed":9.07,"rpm":902.692138671875,"fuel":67.3903065919876,"oiltemp":81.22,"oilpres":7.39}
 ```
+
+## References
+
+[Air_core_gauge Wiki](https://en.wikipedia.org/wiki/Air_core_gauge)
