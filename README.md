@@ -4,7 +4,7 @@
 
 Arduino code to control Corvette C5 air core dash gauges
 
-Using SimHub custome serial feature to direct system output values from game
+Using SimHub custom serial feature to direct system output values from game
 
 ## Message Code Syntax
 
